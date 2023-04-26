@@ -1,0 +1,37 @@
+.chat-container {
+	width: 500px;
+	margin: auto;
+}
+
+.ac-pushButton {
+    width: 100px;
+}
+
+#message ~ div.ac-textBlock {
+    border: 1px solid gray;
+}
+
+.even {
+    background: #e8a2a2;
+}
+.odd {
+    background: #8585ca;
+}
+
+#message {
+    position: fixed;
+	bottom: 10px;
+	height: 40px;
+	width: 500px;
+	background-color: hsl(0, 0%, 14%);
+	border-radius: 6px;
+}
+
+.ac-columnSet {
+    position: fixed;
+	top: 10px;
+	height: 40px;
+	width: 500px;
+    background-color: #fff;
+    left: 0;
+}
